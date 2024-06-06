@@ -1,6 +1,6 @@
 JAVASCRIPT VARAIBLES
 
---variables should be in cameCase
+--variables should be declared in cameCase (more preferable) , PascalCase , snake_case , kebab-case
 -- must not start with digits
 -- must not contains space (underScore allowed) and no special characters
 -- $ and _ allowed
