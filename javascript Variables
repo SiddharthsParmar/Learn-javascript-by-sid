@@ -1,2 +1,26 @@
 JAVASCRIPT VARAIBLES
-  
+
+--variables should be in cameCase
+-- must not start with digits
+-- must not contains space (underScore allowed) and no special characters
+-- $ and _ allowed
+
+
+TYPES OF VARIABLE
+let    var   const 
+
+--let---
+
+let is most frequently used variable
+it's scope is only within block of { } 
+let variable should be initialized before accessing (gives error)
+
+--const--
+const is also block scope variable 
+its scope is only within { }
+const variable should be initialized before accessing (gives error)
+
+--var--
+"var" is function scoped variable it can be only accessed within function block
+it can be accessed anywhere in the functions
+
