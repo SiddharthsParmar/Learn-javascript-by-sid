@@ -29,3 +29,6 @@ binded with '' or "" or ``
 convert Data type To valid integer
 - more convinient way than puting + at before string
 parseInt("500HelloHii") --> 500(output)
+
+
+  
