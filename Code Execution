@@ -13,7 +13,7 @@ when we declare any variable in javascript code executes in two phases.
 
 ***NOTE******
 when we declare variable with var and try to access it before its initializtion it gives "undefined"
-but, in the case of 
+but, in the case of const and let it gives error access before initialization. 
 
 
 
