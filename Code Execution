@@ -1,0 +1,19 @@
+
+when we declare any variable in javascript code executes in two phases.
+
+-- MEMORY CREATION PHASE--(before execution )
+
+-When we declare any variable than firstly memory is created for that.
+-then js will assign name and undefined type and value is assigned to it.
+-then the type of value also be undefined
+
+--Code Execution Phase-- (actual code excutes)
+- variables will get actual value rather than undefind values.
+-than the types of the values will be assigned like string,number etc.
+
+***NOTE******
+when we declare variable with var and try to access it before its initializtion it gives "undefined"
+but, in the case of 
+
+
+
