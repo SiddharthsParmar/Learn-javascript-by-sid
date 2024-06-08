@@ -1,0 +1,4 @@
+there are thre types of dialog boxes
+1. Confirm() : asks user concern about message return boolean values
+2. alert() : gives user only message 
+3.prompt() : takes input from user
