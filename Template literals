@@ -1,0 +1,24 @@
+-- STRING METHODS AND PROPERTIES -- 
+--String Properties--
+1.length;
+String_name.length;
+
+--Strinng methods--
+toUppercase();
+toLowerCase();
+trim(); trims extra space of the string from both side of string
+trimStart();
+trimEnd();
+
+--String Methods With Arguments -- 
+1.includes(""); searches over string to find argument if exist --> true otherwise false
+2.indexOf(); prints the index number of character of string for nonexistence of char give -1
+3.replace(<Word>, <replacement> ); relaces the char or string or word from first occurenece of word 
+4.replaceAll() 
+5.concat();
+padStart()
+padEnd()
+charAt()
+charCodeAt()
+split()
+
