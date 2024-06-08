@@ -19,6 +19,11 @@ trimEnd();
 padStart()
 padEnd()
 charAt()
-charCodeAt()
-split()
+charCodeAt() : Gives Ascii Value for Character
+split() :  breaks string and make array of remaining elements
 
+--STRING TREMPLATE LITERALS--
+when we use `` instead of "" is called template literal for string we can add dynamic element with the help of ${};
+ex. const name = "jordan";
+const templateLiteralString = `my name is ${name}`
+-- we can add whole js logic with the help of template String
