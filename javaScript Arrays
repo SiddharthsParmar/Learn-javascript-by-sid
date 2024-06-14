@@ -1,0 +1,8 @@
+Arrays : Collection of Data which have same data type
+
+  **Note**
+  Arrays are made of Object Literals and have data type of object
+  -- declaration-- 
+  const Arr1 = [1,2,3,4,5,6]
+  const fruit = ["apple","pineapple"]
+  to access members of array Array_name[index] = value at that index
