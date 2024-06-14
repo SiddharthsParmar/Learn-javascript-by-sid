@@ -1,0 +1,8 @@
+proper way to copy any array oand objects
+
+const fruit = ['','',''];
+const newFruit = fruit;
+
+fruit.push('');
+
+here push operation will be done to both  array as it is copy of the fruit array
