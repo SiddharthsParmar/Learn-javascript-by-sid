@@ -1,0 +1,4 @@
+seal();
+this methd prevents deletion and addition of new key and values in the object but we can change existing values
+freeze();
+this methd prevents deletion and addition of new key and values in the object but we can change existing values
