@@ -1,0 +1,13 @@
+Object As Value OF an key in the object
+
+const user = {
+name:"your_name",
+
+address:{
+
+city:"banglore",
+
+country:"India"
+}
+
+-- when we create an object it takes one address and if we create another object in the object than sepearate address is allocated to that object and only address of new object passed to the value of the key of the object
