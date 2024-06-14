@@ -1,0 +1,9 @@
+
+const array1 = [[1,2,3],[10,50,60]]
+const array2 = [['sid' ,24 ],['siddharth',32]]
+const ticktaktoe = 
+[
+[x , null , null],
+[null , null , O];
+[o , null , x]
+]
