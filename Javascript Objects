@@ -1,0 +1,11 @@
+-- NON PRIMITIVE DATA TYPES (REFERENCE TYPE)-- :: OBJECTS
+--PRIMITIVE DATA TYPES (VALUE TYPE): number , string , boolean , string , null, undefiled
+
+total 8 data types: 7 primitve + 1 non primitive
+
+
+--OBJECTS--
+Objects Are divided into three subcategories 
+1. Object literals
+2. Arrays
+3. Functions
