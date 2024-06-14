@@ -14,4 +14,7 @@ Objects Are divided into three subcategories
 ex. const user = {}; //empty objecct
      const user = {key : 'value'}
      to access object user.key = 'value'
-
+**NOTE**
+--in the heap memory object(string,arrays , object etc..) and variables(const user) are interlinked by giving them same address
+so the value will
+-- Two object are only compares with their adddress not by values in it
