@@ -9,3 +9,9 @@ Objects Are divided into three subcategories
 1. Object literals
 2. Arrays
 3. Functions
+
+--creating object-- 
+ex. const user = {}; //empty objecct
+     const user = {key : 'value'}
+     to access object user.key = 'value'
+
