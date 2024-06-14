@@ -1,0 +1,9 @@
+1. Dot notation
+const userName = {firstName : "Name"};
+console.log(userName.firstName)
+
+2. Bracket Notation(more powerfull)
+-- console.log(useName["firstName"]) //object keys are internally strings
+-- bracket notation is usefull when key are like 'first-name' or 'first_name'
+-- we can also add and access the js variables and expression with it
+
