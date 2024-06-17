@@ -1,0 +1,8 @@
+there are three types of loop
+1. while loop 2. do while loop 3. for loop
+
+1. while Loop
+while(true){
+//do something
+
+}
