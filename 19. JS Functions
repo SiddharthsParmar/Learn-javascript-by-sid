@@ -1,0 +1,12 @@
+Functions are block of code that do some task 
+it is used to remove reatition of writing same code for to achieve task
+function does two task 1. doing calculation or tasks and returning result from that task called return value, if there is no return value than it's an undefined
+
+declaration 
+1. function fun1(){
+//code
+}
+
+2. const fun2 =()=>{
+  //code
+}
