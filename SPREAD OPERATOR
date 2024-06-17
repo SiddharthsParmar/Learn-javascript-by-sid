@@ -4,3 +4,25 @@ EX : const obj1 = {fname : 'daniel ' , lname: 'miller'};
 we can do same for arrays
 const arr1 = [1,2,3];
 const arr2 = [...arr1,4,5,6]
+
+**MOST IMPORTANT **
+
+if we create new object with spread operator we create single object with distict address but if we have nested objects it also copies the nested object in one single object and the address of the nested object becomes same
+
+const user1 = {
+    fname:'sid',
+    lname:'parmar',
+    pata:{
+        city:'ahmedabad',
+        pincode:'0000'
+    }
+}
+const user2 = {...user1};
+change in pata will be reflected on both objects
+
+***************************DEEP Copy*********************************
+**RIGHT WAY TO COPY NESTED OBJECTSA AND ARRAYS IS TO USE JSON.parse() to the Stringfied Object
+ex. const fruit = ['','','']
+const fruit2 = JSON.parse(JSON.stringify(fruit));
+where , JSON.stringify(fruit) :: will make JSON STRING of the Object 
+and  , JSON.parse() :: will make new copy of an object
