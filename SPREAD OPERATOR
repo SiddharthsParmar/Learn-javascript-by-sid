@@ -2,3 +2,5 @@ IT IS USED TO COPY OBJECT INTO SEPERATE OBJECT INDEPENDENTLY
 EX : const obj1 = {fname : 'daniel ' , lname: 'miller'};
       const obj2 = {...obj1};
 we can do same for arrays
+const arr1 = [1,2,3];
+const arr2 = [...arr1,4,5,6]
