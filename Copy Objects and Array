@@ -1,8 +1,39 @@
-proper way to copy any array oand objects
+** EVERY CONCEPT BELOW IS NOT IN USE NOW REFER SPREAD OPERATOR FOR THE LATEST ES6 FEATURE FOR COPYING OBJECTS AND ARRAYS
 
+
+proper way to copy any array oand objects
 const fruit = ['','',''];
 const newFruit = fruit;
 
 fruit.push('');
-
 here push operation will be done to both  array as it is copy of the fruit array
+and both array variable will be pointing to the same address of the element they are consisting
+
+--FOR OBJECTS -- 
+const obj1 = {
+  firstname:'daniel',
+    lastname:"chan"
+}
+const obj2 = obj1;
+obj1.lastname = 'jackson'
+
+--FOR STRINGS--
+const Str1 = 'Daniel Mcgregor'
+const str2 = Str1;
+
+both (Str1 , str2) the variable will be pointing to the same location where string 'daniel mcgregor' exist in the group of string in the memory
+
+*********RIGHT  WAY  TO COPY OBJECT ****************
+
+
+--object.assign();--
+
+object.assign(destination_obj , source_obj);
+ex. const user1 = {fname:"" , lname:""};
+const user2 = {};
+
+object.assign(user2, user1);
+address of both objects willbe different 
+
+
+
