@@ -1,0 +1,19 @@
+it is built within a browser ,, it is an object called window which consist events within browser
+1. location
+2.history
+3.innerheight
+4.innerwidth
+5.open()
+6.close()
+resizeBy()
+resizeTo()
+moveTo()
+moveBy()
+scrollBy()
+scroll()
+
+1.history
+history.forward()
+history.back()
+history.go(for back -num) or history.go(for back -num)
+above are used to navigate forward and bacword into tabs of browser ---> maipulating browser History
